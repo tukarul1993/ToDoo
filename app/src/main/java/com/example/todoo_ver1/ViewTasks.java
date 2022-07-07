@@ -39,6 +39,7 @@ public class ViewTasks extends AppCompatActivity {
 
         //--- Retrive data from table
         viewTasks();
+        //--- Retrive data from table
     }
 
     //--- Retrive data from table
