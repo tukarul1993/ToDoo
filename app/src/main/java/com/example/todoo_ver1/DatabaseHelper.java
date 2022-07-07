@@ -53,7 +53,7 @@ public class DatabaseHelper   extends SQLiteOpenHelper {
         values.put("TaskDescription",description);
         values.put("TaskCreatedDate",dtf.format(now));
         values.put("TaskCompletionDate", taskDate);
-        values.put("IsTaskCompleted","true");  // Initially inserted as 0:incomplete task
+        values.put("IsTaskCompleted","false");  // Initially inserted as 0:incomplete task
 
         db.insert("Tbl_ToDo_Tasks", null, values);
         db.close();
