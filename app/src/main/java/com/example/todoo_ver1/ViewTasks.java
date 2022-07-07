@@ -57,6 +57,9 @@ public class ViewTasks extends AppCompatActivity {
                 IsTaskCompleted.add(cursor.getString(5));
                 //taskCompleteDate.add(cursor.getString(3));
 
+
+                // Added by Ganesh
+
             }
 
         }
